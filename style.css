@@ -1,0 +1,68 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.global-nav-menu-list-item a {
+  color: rgb(130, 130, 130);
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 650;
+}
+.half-split .headline {
+  font-size: 20px;
+  font-weight: 600;
+}
+.subhead {
+  font-size: 18px;
+  font-weight: 500;
+}
+.half-split .subhead {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*.list-item {
+
+}*/
+
+.links a {
+  color: rgb(47, 116, 194);
+}
+
+/*Footer*/
+/*.foot-notes-list-item,
+.foot-nav a,
+.foot-nav .headline {
+  font-size: 14px;
+  font-weight: 350;
+  color: rgba(0, 0, 0, 0.7);
+}
+.foot-nav .headline {
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+}
+.foot-footer {
+  font-size: 14px;
+}
+.foot-footer-legal a {
+  color: rgb(57, 57, 57);
+}*/
+
+footer * {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+}
+footer .headline {
+  font-size: 13px;
+}
+.foot-footer-links a {
+  color: rgba(0, 0, 0, 0.9);
+}
