@@ -28,34 +28,11 @@ a {
   font-size: 16px;
   font-weight: 500;
 }
-
-/*.list-item {
-
-}*/
-
 .links a {
   color: rgb(47, 116, 194);
 }
 
 /*Footer*/
-/*.foot-notes-list-item,
-.foot-nav a,
-.foot-nav .headline {
-  font-size: 14px;
-  font-weight: 350;
-  color: rgba(0, 0, 0, 0.7);
-}
-.foot-nav .headline {
-  color: rgb(0, 0, 0);
-  font-weight: 550;
-}
-.foot-footer {
-  font-size: 14px;
-}
-.foot-footer-legal a {
-  color: rgb(57, 57, 57);
-}*/
-
 footer * {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.7);
