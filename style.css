@@ -1,5 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -7,29 +8,71 @@ ul {
 a {
   text-decoration: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  outline: 1px solid black;
+}
 
-.global-nav-menu-list-item a {
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+.headline {
+  font-size: 40px;
+  font-weight: 650;
+}
+.subhead {
+  font-size: 24px;
+  font-weight: 500;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  color: rgb(47, 116, 194);
+}
+
+.global-nav {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.global-nav > * {
+  padding: 0 1vw;
+}
+.global-nav-logo,
+.global-nav-search,
+.global-nav-bag {
+  padding: 0 1vw;
+}
+.global-nav-menu {
+  padding: 0;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.global-nav-menu a {
+  white-space: nowrap;
+  line-height: 44px;
+  padding: 0 1vw;
   color: rgb(130, 130, 130);
 }
 
-.headline {
-  font-size: 24px;
-  font-weight: 650;
-}
 .half-split .headline {
   font-size: 20px;
   font-weight: 600;
 }
-.subhead {
-  font-size: 18px;
-  font-weight: 500;
-}
 .half-split .subhead {
   font-size: 16px;
   font-weight: 500;
-}
-.links a {
-  color: rgb(47, 116, 194);
 }
 
 /*Footer*/
@@ -37,6 +80,7 @@ footer * {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.7);
 }
+/*Override .headline*/
 footer .headline {
   font-size: 13px;
 }
