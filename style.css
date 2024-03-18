@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 2000px;
 }
 ul {
   list-style: none;
@@ -12,8 +13,16 @@ a {
   margin: 0;
   padding: 0;
 }
-* {
+/* * {
   outline: 1px solid black;
+} */
+
+/* svg {
+  display: block;
+} */
+
+.wc {
+  color: white;
 }
 
 h2,
@@ -23,47 +32,52 @@ h5 {
   text-align: center;
 }
 .headline {
-  font-size: 40px;
-  font-weight: 650;
+  font-size: 50px;
+  font-weight: 600;
 }
 .subhead {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .links {
   display: flex;
   justify-content: center;
+  padding: 1em 0;
 }
 .links a {
-  color: rgb(47, 116, 194);
+  font-size: 18px;
+  color: rgb(21, 115, 222);
+  padding: 0 1em;
 }
-
 .global-nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(22, 22, 23, 0.8);
+  backdrop-filter: blur(20px);
+}
+.global-nav-container {
+  max-width: 1000px;
   font-size: 12px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
-.global-nav > * {
-  padding: 0 1vw;
+.global-nav-container > * {
+  padding: 0 1rem;
+}
+
+.global-nav-item {
+  white-space: nowrap;
+  padding: 1rem 0.5rem;
+  color: rgb(207, 207, 207);
 }
 .global-nav-logo,
 .global-nav-search,
 .global-nav-bag {
+  fill: rgb(207, 207, 207);
   padding: 0 1vw;
-}
-.global-nav-menu {
-  padding: 0;
-  height: 44px;
-  display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
-}
-.global-nav-menu a {
-  white-space: nowrap;
-  line-height: 44px;
-  padding: 0 1vw;
-  color: rgb(130, 130, 130);
 }
 
 .half-split .headline {
@@ -73,6 +87,32 @@ h5 {
 .half-split .subhead {
   font-size: 16px;
   font-weight: 500;
+}
+
+.flex-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 0 0 5rem 0;
+}
+
+.module {
+  padding-top: 5em;
+  background-size: cover;
+  background-position: center center;
+  min-height: 550px;
+  margin-bottom: 0.5rem;
+}
+
+#iphone-15-pro {
+  background-image: url(https://www.apple.com/v/home/bl/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+}
+#iphone-15 {
+  background-image: url(https://www.apple.com/v/home/bl/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium_2x.jpg);
+}
+#apple-vision-pro {
+  background-image: url(https://www.apple.com/v/home/bl/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large_2x.jpg);
 }
 
 /*Footer*/
