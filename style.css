@@ -55,6 +55,7 @@ h5 {
 .global-nav {
   position: fixed;
   width: 100%;
+  max-width: 2000px;
   background-color: rgba(22, 22, 23, 0.8);
   backdrop-filter: blur(20px);
 }
@@ -89,7 +90,7 @@ h5 {
 .global-nav-logo,
 .global-nav-search,
 .global-nav-bag {
-  padding: 0 1vw;
+  padding: 0 0.5rem;
 }
 
 .flex-end {
