@@ -55,7 +55,7 @@ h5 {
 .global-nav {
   position: fixed;
   width: 100%;
-  max-width: 2000px;
+  max-width: inherit;
   background-color: rgba(22, 22, 23, 0.8);
   backdrop-filter: blur(20px);
 }
@@ -227,11 +227,9 @@ footer {
   margin: 1rem 0;
 }
 .foot-footer {
-  padding: 1rem 0;
-}
-.foot-footer-first-line {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 .foot-footer-links {
   display: flex;
@@ -241,5 +239,5 @@ footer {
   padding-right: 0.5rem;
   border-right: 1px solid rgba(0, 0, 0, 0.5);
   margin-right: 0.5rem;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
